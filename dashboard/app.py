@@ -822,7 +822,7 @@ elif page == "📈 Model Insights":
 
     # ── Metrics ──
     try:
-        with open("models/model_metrics.txt") as f:
+        with open("models/model_metrics.txt",encoding="utf-8", errors="ignore") as f:
             metrics_text = f.read()
         with st.expander("📄 Full Model Metrics Report", expanded=True):
             st.code(metrics_text)
