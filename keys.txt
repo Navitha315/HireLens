@@ -1,0 +1,4 @@
+ADZUNA API
+APP ID: 74d06bbd
+APP KEY: 255e71e83f439c30b9909056dc760d13
+ACCESS LINK(TESTING): https://api.adzuna.com/v1/api/jobs/in/search/1?app_id=74d06bbd&app_key=255e71e83f439c30b9909056dc760d13&what=data%20scientist

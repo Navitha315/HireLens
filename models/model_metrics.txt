@@ -1,0 +1,20 @@
+HireLens – Isolation Forest Model Metrics
+==================================================
+
+ROC-AUC Score        : 1.0
+Training samples     : 2500
+True ghost count     : 1128
+Predicted ghost count: 1649
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Authentic       1.00      0.62      0.77      1372
+       Ghost       0.68      1.00      0.81      1128
+
+    accuracy                           0.79      2500
+   macro avg       0.84      0.81      0.79      2500
+weighted avg       0.86      0.79      0.79      2500
+
+Confusion Matrix:
+[[851, 521], [0, 1128]]
